@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bank</title>
+  </head>
+  <body>
+    <!-- header section -->
+
+    <header>
+      <h1>Money Expenses</h1>
+    </header>
+
+    <!-- main section -->
+
+    <main>
+      <div class="output-card-container">
+        <div class="output-card green">
+          <h2>Deposit</h2>
+          <p>$<span id="deposit-output">00</span></p>
+        </div>
+        <div class="output-card red">
+          <h2>Withdraw</h2>
+          <p>$<span id="withdraw-output">00</span></p>
+        </div>
+        <div class="output-card blue">
+          <h2>Balance</h2>
+          <p>$<span id="balance-output">00</span></p>
+        </div>
+      </div>
+      <div class="input-card-container">
+        <div class="input-card">
+          <h1>Deposit Money</h1>
+
+          <div>
+            <input type="text" id="deposit-value" />
+            <button class="bg-green" onclick="deposit()">Deposit</button>
+          </div>
+        </div>
+        <div class="input-card">
+          <h1>Withdraw Money</h1>
+
+          <div>
+            <input type="text" id="withdraw-value" />
+            <button onclick="withdraw()" class="bg-red">Withdraw</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

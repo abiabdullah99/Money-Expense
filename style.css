@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(18, 9, 44, 0.726);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(34, 34, 34);
+  font-family: "Comfortaa", cursive;
+}
+
+header {
+  background-color: tomato;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+header h3 {
+  margin-top: 10px;
+}
+
+header h1,
+h3 {
+  color: white;
+}
+
+.output-card-container {
+  display: flex;
+  justify-content: space-between;
+  width: 950px;
+  margin-top: 50px;
+}
+
+.output-card {
+  background-color: rgb(238, 238, 238);
+  width: 300px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  -webkit-box-shadow: 7px 7px 15px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 7px 7px 15px 1px rgba(0, 0, 0, 0.3);
+}
+
+.output-card p {
+  margin-top: 10px;
+  font-size: 3rem;
+}
+
+.green {
+  color: #27ae60;
+}
+
+.red {
+  color: #eb5757;
+}
+
+.blue {
+  color: #2f80ed;
+}
+
+.input-card-container {
+  width: 800px;
+  margin: 100px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-card {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgb(34, 34, 34);
+  border-radius: 8px;
+}
+
+.input-card h1 {
+  color: #fff;
+}
+
+.input-card div {
+  margin-top: 10px;
+}
+
+input {
+  height: 40px;
+  width: 200px;
+  outline: none;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+button {
+  height: 40px;
+  padding: 10px;
+  font-family: "Comfortaa", cursive;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: all ease-in-out 100ms;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.bg-green {
+  background: #27ae60;
+}
+
+.bg-green:hover {
+  background: #208f4e;
+}
+
+.bg-red {
+  background-color: #eb5757;
+}
+
+.bg-red:hover {
+  background-color: #b84444;
+}
